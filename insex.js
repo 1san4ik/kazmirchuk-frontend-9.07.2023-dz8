@@ -23,3 +23,10 @@ const numberSeven = 7
 for (let i = 1; i <= 10; i++) {
     console.log(`${i} * ${numberSeven} =`, i * numberSeven)
 }
+
+// Task 4
+let sumNumber = 0
+for (let integerNumber = 1; integerNumber <= 15; integerNumber++){
+    sumNumber += integerNumber
+}
+console.log('Task 4: ==> ', sumNumber)
