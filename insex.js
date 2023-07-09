@@ -87,16 +87,27 @@ console.log(`Task 9 ==>  Ви ввели натуральне число ${natur
 // Task 10
 let numberOfDivisors = 0  // let naturalNumber беремо з попередньої задачі
 for (let initialNaturalNumber = 1; initialNaturalNumber <= naturalNumber; initialNaturalNumber++){
-    if (naturalNumber % initialNaturalNumber === 0){
-        if (initialNaturalNumber % 2 === 0){
-            numberOfDivisors++
-        }
+    if (naturalNumber % initialNaturalNumber === 0 && initialNaturalNumber % 2 === 0){
+        numberOfDivisors++
     }
 }
 if (numberOfDivisors > 0) {
     console.log(`Task 10 ==>  Ви ввели натуральне число ${naturalNumber}, воно має: ${numberOfDivisors} парних дільників`)
 }
 else{
-    console.log(`Task 10 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`    )
+    console.log(`Task 10 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`)
 }
 
+// Task 11
+ let sumOfEvenDivisors = 0 // let naturalNumber беремо з Task 9
+for (let initNumber = 1; initNumber <= naturalNumber; initNumber++){
+    if (naturalNumber % initNumber === 0 && initNumber % 2 === 0){
+        sumOfEvenDivisors += initNumber
+    }
+}
+if (sumOfEvenDivisors > 0){
+    console.log(`Task 11 ==>  Ви ввели натуральне число ${naturalNumber}, сума його парних дільників: ${sumOfEvenDivisors}`)
+}
+else {
+    console.log(`Task 118 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`)
+}
