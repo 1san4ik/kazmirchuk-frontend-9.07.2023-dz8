@@ -47,3 +47,17 @@ for (let startingNumber = 1; startingNumber <= 500; startingNumber++){
     arithmeticMean = (summNumber += startingNumber) / indexNumber
 }
 console.log('Task 6: ==> ', arithmeticMean)
+
+// Task 7
+let userIntNumber = 0
+let evenNumber = 30
+while (evenNumber <=80){
+    if (evenNumber % 2 === 0) {
+        userIntNumber += evenNumber
+        evenNumber++
+    }
+    else {
+        evenNumber++
+    }
+}
+console.log('Task 7: ==> ', userIntNumber)
