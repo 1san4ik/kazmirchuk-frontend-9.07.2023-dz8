@@ -73,3 +73,13 @@ for (let initialNumber = 100; initialNumber <= 200; initialNumber++){
     }
 }
 console.log('Task 8: ==> ', numberMultipleOf3.join(', '))
+
+// Task 9
+let massNaturalNumber = []
+let naturalNumber = prompt('Введіть натуральне число: ')
+for (let initialNaturalNumber = 1; initialNaturalNumber <= naturalNumber; initialNaturalNumber++){
+    if (naturalNumber % initialNaturalNumber === 0){
+        massNaturalNumber.push(initialNaturalNumber)
+    }
+}
+console.log('Task 9 ==> ', massNaturalNumber.join(', '))
