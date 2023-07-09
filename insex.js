@@ -82,4 +82,21 @@ for (let initialNaturalNumber = 1; initialNaturalNumber <= naturalNumber; initia
         massNaturalNumber.push(initialNaturalNumber)
     }
 }
-console.log('Task 9 ==> ', massNaturalNumber.join(', '))
+console.log(`Task 9 ==>  Ви ввели натуральне число ${naturalNumber}, його дільники:`, massNaturalNumber.join(', '))
+
+// Task 10
+let numberOfDivisors = 0  // let naturalNumber беремо з попередньої задачі
+for (let initialNaturalNumber = 1; initialNaturalNumber <= naturalNumber; initialNaturalNumber++){
+    if (naturalNumber % initialNaturalNumber === 0){
+        if (initialNaturalNumber % 2 === 0){
+            numberOfDivisors++
+        }
+    }
+}
+if (numberOfDivisors > 0) {
+    console.log(`Task 10 ==>  Ви ввели натуральне число ${naturalNumber}, воно має: ${numberOfDivisors} парних дільників`)
+}
+else{
+    console.log(`Task 10 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`    )
+}
+
