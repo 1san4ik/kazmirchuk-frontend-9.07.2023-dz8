@@ -61,3 +61,15 @@ while (evenNumber <=80){
     }
 }
 console.log('Task 7: ==> ', userIntNumber)
+
+// Task 8
+let numberMultipleOf3 = []
+for (let initialNumber = 100; initialNumber <= 200; initialNumber++){
+    if (initialNumber % 3 === 0){
+        numberMultipleOf3.push(initialNumber)
+    }
+    else {
+        initialNumber++
+    }
+}
+console.log('Task 8: ==> ', numberMultipleOf3.join(', '))
