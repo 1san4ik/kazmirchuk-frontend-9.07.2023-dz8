@@ -109,5 +109,5 @@ if (sumOfEvenDivisors > 0){
     console.log(`Task 11 ==>  Ви ввели натуральне число ${naturalNumber}, сума його парних дільників: ${sumOfEvenDivisors}`)
 }
 else {
-    console.log(`Task 118 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`)
+    console.log(`Task 11 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`)
 }
