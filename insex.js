@@ -30,3 +30,10 @@ for (let integerNumber = 1; integerNumber <= 15; integerNumber++){
     sumNumber += integerNumber
 }
 console.log('Task 4: ==> ', sumNumber)
+
+// Task 5
+let multiplicationNumber = 1
+for (let intNumber = 15; intNumber <= 35; intNumber++){
+    multiplicationNumber *= intNumber
+}
+console.log('Task 5: ==> ', multiplicationNumber)
