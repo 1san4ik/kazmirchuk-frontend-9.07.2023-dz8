@@ -16,3 +16,10 @@ for (let a2 = 10; a2 <= 20; a2++) {
 }
 let i2 = userMass2.join(', ')
 console.log('Task 2: ==> ', i2)
+
+// Task 3
+console.log('Task 3:')
+const numberSeven = 7
+for (let i = 1; i <= 10; i++) {
+    console.log(`${i} * ${numberSeven} =`, i * numberSeven)
+}
