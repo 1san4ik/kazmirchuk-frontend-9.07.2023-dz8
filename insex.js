@@ -37,3 +37,13 @@ for (let intNumber = 15; intNumber <= 35; intNumber++){
     multiplicationNumber *= intNumber
 }
 console.log('Task 5: ==> ', multiplicationNumber)
+
+// Task 6
+let summNumber = 0
+let indexNumber = 0
+let arithmeticMean = 0
+for (let startingNumber = 1; startingNumber <= 500; startingNumber++){
+    indexNumber++
+    arithmeticMean = (summNumber += startingNumber) / indexNumber
+}
+console.log('Task 6: ==> ', arithmeticMean)
