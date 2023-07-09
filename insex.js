@@ -111,3 +111,11 @@ if (sumOfEvenDivisors > 0){
 else {
     console.log(`Task 11 ==> Ви ввели натуральне число ${naturalNumber}. Парних дільників немає`)
 }
+
+// Task 12
+console.log('Task 12:')
+for (let x = 1; x <= 10; x++){
+    for (y = 1; y <= 10; y++){
+        console.log(`${x} * ${y} = ${x * y}`)
+    }
+}
